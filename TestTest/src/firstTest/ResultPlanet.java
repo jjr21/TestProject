@@ -1,9 +1,5 @@
 package firstTest;
 
-
-
-
-
 public class ResultPlanet {
 
 	public static void main(String[] args) {
