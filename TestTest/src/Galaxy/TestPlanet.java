@@ -6,8 +6,9 @@ public class TestPlanet {
 		
 		Moon name = new Moon("Titan");
 		name.setPlanet("Juptier");
-		String input = "Planet : " + name.getPlanet() + " Moon : " + name.getMoon();
+		name.setCar("Tesla");
+		String input = "Planet : " + name.getPlanet() + " Moon : " + name.toString();
 		System.out.println(input);
 		System.exit(0);
-	}
+	} 
 }
